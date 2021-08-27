@@ -123,7 +123,7 @@ header button {
   grid-gap: 10rem;
   -webkit-box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0.219);
           box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0.219);
-  margin: 2rem;
+  margin-bottom: 2rem;
   padding: 4rem;
   border-radius: 5px;
 }
@@ -162,7 +162,6 @@ footer {
   position: relative;
   background-color: #00252e;
   color: #ebfbff;
-  padding-top: 8rem;
 }
 
 footer > p {
@@ -178,6 +177,8 @@ footer > p {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding: 0rem 2rem;
+  width: 70%;
+  margin: auto;
 }
 
 .foot-content > * {
@@ -247,10 +248,8 @@ footer > p {
 }
 
 .stick {
-  position: absolute;
-  top: -15%;
-  right: 0;
-  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
@@ -359,6 +358,6 @@ footer > p {
     padding: 2rem;
     left: 20px;
     right: 20px;
-    width: auto;
+    width: 90%;
   }
 }
